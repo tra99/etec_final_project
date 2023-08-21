@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513188283136",
+    "project_id": "etecfinal-a6a4c",
+    "storage_bucket": "etecfinal-a6a4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513188283136:android:45bd2fd1557e127bc9e9e5",
+        "android_client_info": {
+          "package_name": "com.example.etec_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513188283136-rnh719lqkmb1piv07gj6n0levvtpb1ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgMkcOMv--xim6cURF1oaWbgTaPW3K2QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513188283136-rnh719lqkmb1piv07gj6n0levvtpb1ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
