@@ -1,5 +1,6 @@
 import 'package:etec_final/src/splashpage/splashpage.dart';
 import 'package:etec_final/src/tests/test1.dart';
+import 'package:etec_final/src/tests/test3.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const SplashPage(),
+      home:   const SplashPage(),
       debugShowCheckedModeBanner: false,
     );
   }

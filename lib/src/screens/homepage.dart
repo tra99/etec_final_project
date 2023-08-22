@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:etec_final/src/screens/document.dart';
 import 'package:etec_final/src/screens/playvideo.dart';
 import 'package:etec_final/src/screens/productscreen.dart';
+import 'package:etec_final/src/screens/profile.dart';
 import 'package:etec_final/src/screens/repairscreen.dart';
 import 'package:etec_final/src/screens/sellpro.dart';
 import 'package:etec_final/src/screens/teachscreen.dart';
@@ -84,7 +85,7 @@ class _HomePageState extends State<HomePage> {
         actions: [
           GestureDetector(
               onTap: () {
-                // code here
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>ProfileScreen()));
               },
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -98,7 +99,8 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-              ))
+              )
+              )
         ],
       ),
       body: Column(
