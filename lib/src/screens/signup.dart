@@ -30,13 +30,13 @@ class Signup extends StatelessWidget {
                   children: <Widget>[
                     const Text('Already here  ?',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20)),
+                            fontWeight: FontWeight.bold, fontSize: 18)),
                     GestureDetector(
                       onTap: () {
                         Navigator.pop(context);
                       },
                       child: const Text(' Get Logged in Now!',
-                          style: TextStyle(fontSize: 20, color: Colors.blue)),
+                          style: TextStyle(fontSize: 18, color: Colors.blue)),
                     )
                   ],
                 )

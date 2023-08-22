@@ -116,7 +116,7 @@ class _LoginPageState extends State<LoginPage> with InputValidationMixin {
                                         MaterialPageRoute(builder: (context) => Signup()));
                                   },
                                   child: const Text('Get Registered Now!!',
-                                      style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 186, 16, 216),fontWeight: FontWeight.bold)),
+                                      style: TextStyle(fontSize: 16, color: Color.fromARGB(255, 186, 16, 216),fontWeight: FontWeight.bold)),
                                 )
                               ],
                             ),

@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:etec_final/src/screens/document.dart';
+import 'package:etec_final/src/screens/playvideo.dart';
 import 'package:etec_final/src/screens/productscreen.dart';
 import 'package:etec_final/src/screens/repairscreen.dart';
 import 'package:etec_final/src/screens/sellpro.dart';
@@ -227,7 +228,7 @@ class _HomePageState extends State<HomePage> {
                                 children: [
                                   InkWell(
                                     onTap: () {
-                                      Get.to(const TeachPage());
+                                      Get.to(PlayVideo());
                                     },
                                     child: Image.asset('icons/video-conference.png', width: 70),
                                   ),
