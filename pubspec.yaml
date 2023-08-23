@@ -50,6 +50,7 @@ dependencies:
   cloud_firestore: ^4.8.5
   video_player: ^2.7.0
   chewie: ^1.7.0
+  open_street_map_search_and_pick: ^0.0.4
 
 dev_dependencies:
   flutter_test:
